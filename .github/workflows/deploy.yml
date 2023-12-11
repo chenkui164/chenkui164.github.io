@@ -10,8 +10,11 @@ jobs:
   deploy-to-gh-pages:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
-    - uses: actions/checkout@v4
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: 'true'
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.6.0
