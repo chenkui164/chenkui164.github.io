@@ -1,10 +1,13 @@
 name: Merge to main workflows
 
 # run when a commit is pushed to "source" branch
-on:
-  push:
-    branches:
-    - main
+
+# on:
+#   push:
+#     branches:
+#     - main
+
+on: [workflow_dispatch]
 
 jobs:
   deploy-to-gh-pages:

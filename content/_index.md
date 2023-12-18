@@ -3,32 +3,7 @@ title: 介绍
 type: docs
 ---
 
-# KaTeX
+# 介绍
 
-KaTeX shortcode let you render math typesetting in markdown document. See [KaTeX](https://katex.org/)
-
-## Example
-{{< columns >}}
-
-```latex
-{{</*/* katex [display] [class="text-center"] */*/>}}
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-{{</*/* /katex */*/>}}
-```
-
-<--->
-
-{{< katex display >}}
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-{{< /katex >}}
-
-{{< /columns >}}
-
-## Display Mode Example
-
-Here is some inline example: {{< katex >}}\pi(x){{< /katex >}}, rendered in the same line. And below is `display` example, having `display: block`
-{{< katex display >}}
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-{{< /katex >}}
-Text continues here.
+起因看论文的时候有很多公式，发现自己很多概念都已经忘记了，然后在网上收集了很多数学公式，想放在这里。方便看论文的时候查阅。
 
